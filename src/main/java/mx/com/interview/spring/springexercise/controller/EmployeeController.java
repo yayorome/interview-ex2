@@ -5,8 +5,6 @@ import mx.com.interview.spring.springexercise.model.Employee;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-@Slf4j
-@RestController("employee")
 public class EmployeeController {
 
     public ResponseEntity<Employee> getEmployee(String id){
